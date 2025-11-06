@@ -1,0 +1,8 @@
+[
+    { "amazigh": "Isma-inu ...", "english": "My name is ...", "pronunciation": "Isma-eenu ..." },
+    { "amazigh": "Mani tekid?", "english": "Where are you from?", "pronunciation": "Ma-ni te-keed" },
+    { "amazigh": "Nekk d ...", "english": "I am from ...", "pronunciation": "Nek d ..." },
+    { "amazigh": "Ur fhimeɣ ara", "english": "I don't understand", "pronunciation": "Oor fhe-megh a-ra" },
+    { "amazigh": "Ɛawd afak", "english": "Please repeat", "pronunciation": "Aowd a-fak" },
+    { "amazigh": "Suref-iyi", "english": "Excuse me / Sorry", "pronunciation": "Soo-ref-ee-yee" }
+]

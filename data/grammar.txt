@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Nouns: Masculine & Feminine",
+        "explanation": "In Amazigh, nouns have gender. Most masculine singular nouns begin with a vowel (usually \"a\"), while feminine singular nouns often start with \"ta-\" and end with \"-t\".",
+        "examples": [
+            { "amazigh": "aryaz (ⴰⵔⵢⴰⵣ)", "english": "man (masculine)" },
+            { "amazigh": "taryazt (ⵜⴰⵔⵢⴰⵣⵜ)", "english": "woman (feminine)" },
+            { "amazigh": "afus (ⴰⴼⵓⵙ)", "english": "hand (masculine)" },
+            { "amazigh": "tafust (ⵜⴰⴼⵓⵙⵜ)", "english": "small hand (feminine)" }
+        ]
+    },
+    {
+        "title": "Plurals",
+        "explanation": "Pluralization can be complex. A common pattern for masculine nouns is changing the initial \"a-\" to \"i-\" and adding \"-en\" at the end. For feminine nouns, \"ta-...-t\" can become \"ti-...-in\".",
+        "examples": [
+            { "amazigh": "aryaz (ⴰⵔⵢⴰⵣ)", "english": "man" },
+            { "amazigh": "iriyazen (ⵉⵔⵢⴰⵣⴻⵏ)", "english": "men" },
+            { "amazigh": "taddart (ⵜⴰⴷⴷⴰⵔⵜ)", "english": "house" },
+            { "amazigh": "tiddar (ⵜⵉⴷⴷⴰⵔ)", "english": "houses" }
+        ]
+    },
+    {
+        "title": "Sentence Structure",
+        "explanation": "The basic sentence structure is often Verb-Subject-Object (VSO), which is different from English (SVO).",
+        "examples": [
+            { "amazigh": "Yekcem urgazaxxam.", "english": "The man entered the house." },
+            { "amazigh": "Literal: Entered man house.", "english": "" },
+            { "amazigh": "Teca tislit taɣrumt.", "english": "The bride ate the bread." },
+            { "amazigh": "Literal: Ate bride bread.", "english": "" }
+        ]
+    }
+]

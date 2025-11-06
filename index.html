@@ -1,32 +1,66 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazigh Learn</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <style>
       body {
         font-family: 'Poppins', sans-serif;
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
-  }
-}
-</script>
 </head>
-  <body class="bg-gray-100 dark:bg-gray-900">
-    <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
-  </body>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-200 transition-colors duration-300">
+    <div class="min-h-screen flex flex-col">
+      <header class="bg-white dark:bg-slate-800/50 backdrop-blur-sm shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+          <div class="flex items-center space-x-3">
+            <svg class="h-8 w-8 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15v-4H8v-2h3V7l5 5-5 5z"/>
+            </svg>
+            <h1 class="text-2xl font-bold text-slate-900 dark:text-white">Amazigh Learn</h1>
+          </div>
+        </div>
+      </header>
+      
+      <div class="container mx-auto px-4 py-8 flex flex-col lg:flex-row gap-8 flex-grow">
+        <aside class="w-full lg:w-1/4 xl:w-1/5">
+          <nav class="p-4 bg-white dark:bg-slate-800 rounded-xl shadow-md space-y-2">
+            <button data-section="Alphabet" class="nav-item flex items-center w-full text-left p-3 rounded-lg transition-all duration-200">
+              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502"></path></svg>
+              <span class="ml-3 font-medium">Alphabet</span>
+            </button>
+            <button data-section="Vocabulary" class="nav-item flex items-center w-full text-left p-3 rounded-lg transition-all duration-200">
+              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"></path></svg>
+              <span class="ml-3 font-medium">Vocabulary</span>
+            </button>
+            <button data-section="Basics" class="nav-item flex items-center w-full text-left p-3 rounded-lg transition-all duration-200">
+              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z"></path></svg>
+              <span class="ml-3 font-medium">Basics</span>
+            </button>
+            <button data-section="Grammar" class="nav-item flex items-center w-full text-left p-3 rounded-lg transition-all duration-200">
+              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.125 2.25h-4.5c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125v-9M10.125 2.25c.621 0 1.125.504 1.125 1.125v3.375M10.125 2.25c-1.11.023-2.193.39-3.068.992M10.125 6.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 9.75h1.5v1.5h-1.5v-1.5z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 12h7.5"></path><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 15h7.5"></path><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 18h7.5"></path></svg>
+              <span class="ml-3 font-medium">Grammar</span>
+            </button>
+          </nav>
+        </aside>
+        
+        <main id="content-area" class="w-full lg:w-3/4 xl:w-4/5">
+          <!-- Content is dynamically injected here -->
+        </main>
+      </div>
+      
+      <footer class="bg-white dark:bg-slate-800/50 mt-8 py-4">
+          <div class="container mx-auto px-4 text-center text-slate-500 dark:text-slate-400 text-sm">
+              <p>ⴰⵙⵍⵎⴷ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵜⴰⵎⴰⵣⵉⵖⵜ - Learning the Amazigh Language</p>
+          </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>

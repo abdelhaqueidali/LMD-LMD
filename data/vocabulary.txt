@@ -1,0 +1,34 @@
+[
+  {
+    "category": "Greetings",
+    "words": [
+      { "amazigh": "Azul", "english": "Hello", "pronunciation": "A-zool" },
+      { "amazigh": "Manzakin?", "english": "How are you? (m)", "pronunciation": "Man-za-keen" },
+      { "amazigh": "Manzakem?", "english": "How are you? (f)", "pronunciation": "Man-za-kem" },
+      { "amazigh": "Labas", "english": "Fine", "pronunciation": "La-bass" },
+      { "amazigh": "Tanemmirt", "english": "Thank you", "pronunciation": "Ta-nem-mirt" },
+      { "amazigh": "Ar tufat", "english": "Goodbye", "pronunciation": "Ar too-fat" }
+    ]
+  },
+  {
+    "category": "Numbers",
+    "words": [
+      { "amazigh": "Yiwen", "english": "One", "pronunciation": "Yee-wen" },
+      { "amazigh": "Sin", "english": "Two", "pronunciation": "Seen" },
+      { "amazigh": "Krad", "english": "Three", "pronunciation": "Krahd" },
+      { "amazigh": "Kuz", "english": "Four", "pronunciation": "Kooz" },
+      { "amazigh": "Semmus", "english": "Five", "pronunciation": "Sem-moos" },
+      { "amazigh": "Sḍis", "english": "Six", "pronunciation": "Sdees" }
+    ]
+  },
+  {
+    "category": "Family",
+    "words": [
+        { "amazigh": "Baba", "english": "Father", "pronunciation": "Ba-ba" },
+        { "amazigh": "Yemma", "english": "Mother", "pronunciation": "Yem-ma" },
+        { "amazigh": "Gma", "english": "Brother", "pronunciation": "Gma" },
+        { "amazigh": "Weltma", "english": "Sister", "pronunciation": "Welt-ma" },
+        { "amazigh": "Axxam", "english": "House/Home", "pronunciation": "Akh-kham"}
+    ]
+  }
+]
